@@ -1,6 +1,6 @@
 # Netflix Movies and TV Shows Clustering - ML Project
 
-An exploratory data analysis project on Netflix data to understand booking trends and pricing dynamics.
+This project focuses on analyzing Netflix movies and TV shows to cluster similar content and build a personalized recommendation system for enhanced user experience.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -14,14 +14,14 @@ An exploratory data analysis project on Netflix data to understand booking trend
 To run the analysis locally, clone this repository and install the dependencies.
 
 ## Data Sources
-The Airbnb data used in this project was sourced from Airbnb NYC 2019.csv.
+The Netflix data used in this project was sourced from Almabetter.
 
 ## File Descriptions
-- AirBnb_Bookings_Analysis_EDA_Submission.ipynb : Colab notebook containing the exploratory data analysis.
-- Airbnb NYC 2019.csv : Folder containing the raw and processed datasets.
+- Netflix_Movies_and_TV_Shows_Clustering.ipynb : Colab notebook containing the exploratory data analysis.
+- NETFLIX MOVIES AND TV SHOWS CLUSTERING.csv : Folder containing the raw and processed datasets.
 
 ## Exploratory Data Analysis
-In the  AirBnb_Bookings_Analysis_EDA_Submission.ipynb  notebook, we explored the following aspects of the Airbnb data:
+In the Netflix_Movies_and_TV_Shows_Clustering.ipynb  notebook, we explored the following aspects of the Airbnb data:
 - Data Visualization, Storytelling & Experimenting with Charts.
 - Price distribution across different neighborhoods.
 - Correlation between relevant numerical variables.
@@ -29,7 +29,7 @@ In the  AirBnb_Bookings_Analysis_EDA_Submission.ipynb  notebook, we explored the
 ## Technologies Used
 - Python 3
 - Colab Notebook
-- Pandas, Matplotlib, Numpy, Seaborn
+- Pandas, Matplotlib, Numpy, Seaborn, nltk, scikit-learn, scipy, yellowbrick
 
 ## Usage
-To reproduce the analysis, open  AirBnb_Bookings_Analysis_EDA_Submission.ipynb  in Colab Notebook and execute the cells sequentially.
+To reproduce the analysis, open  Netflix_Movies_and_TV_Shows_Clustering.ipynb  in Colab Notebook and execute the cells sequentially.
