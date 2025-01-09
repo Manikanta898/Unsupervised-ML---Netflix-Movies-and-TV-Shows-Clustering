@@ -7,6 +7,7 @@ This project focuses on analyzing Netflix movies and TV shows to cluster similar
 - [Data Sources](#data-sources)
 - [File Descriptions](#file-descriptions)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Clustering](#clustering)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
 
@@ -21,15 +22,21 @@ The Netflix data used in this project was sourced from Almabetter.
 - NETFLIX MOVIES AND TV SHOWS CLUSTERING.csv : Folder containing the raw and processed datasets.
 
 ## Exploratory Data Analysis
-In the Netflix_Movies_and_TV_Shows_Clustering.ipynb  notebook, we explored the following aspects of the Airbnb data:
+In the Netflix_Movies_and_TV_Shows_Clustering.ipynb  notebook, we explored the following aspects of the Netflix data:
 - Data Visualization, Storytelling & Experimenting with Charts.
-- Price distribution across different neighborhoods.
+- Distribution of Content ratings and durations of different Movies and TV Shows.
+- Correlation between relevant numerical variables.
+
+## Clustering
+In the Netflix_Movies_and_TV_Shows_Clustering.ipynb  notebook, we explored the following aspects of the Netflix data:
+- Data Visualization, Storytelling & Experimenting with Charts.
+- Distribution of Content ratings and durations of different Movies and TV Shows.
 - Correlation between relevant numerical variables.
 
 ## Technologies Used
 - Python 3
 - Colab Notebook
-- Pandas, Matplotlib, Numpy, Seaborn, nltk, scikit-learn, scipy, yellowbrick
+- Pandas, Matplotlib, Numpy, Seaborn, nltk(Natural Language Toolkit), scikit-learn, scipy, yellowbrick
 
 ## Usage
 To reproduce the analysis, open  Netflix_Movies_and_TV_Shows_Clustering.ipynb  in Colab Notebook and execute the cells sequentially.
