@@ -1,6 +1,6 @@
 # Netflix Movies and TV Shows Clustering - ML Project
 
-This project focuses on analyzing Netflix movies and TV shows to cluster similar content and build a personalized recommendation system for enhanced user experience.
+This project focuses on applying unsupervised machine learning to cluster Netflix movies and TV shows, uncovering trends and patterns to inform content categorization and business decisions.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
@@ -22,16 +22,18 @@ The Netflix data used in this project was sourced from Almabetter.
 - NETFLIX MOVIES AND TV SHOWS CLUSTERING.csv : Folder containing the raw and processed datasets.
 
 ## Exploratory Data Analysis
-In the Netflix_Movies_and_TV_Shows_Clustering.ipynb  notebook, we explored the following aspects of the Netflix data:
+In the Netflix_Movies_and_TV_Shows_Clustering.ipynb  notebook, the following aspects of the Netflix data were explored:
 - Data Visualization, Storytelling & Experimenting with Charts.
 - Distribution of Content ratings and durations of different Movies and TV Shows.
 - Correlation between relevant numerical variables.
 
 ## Clustering
-In the Netflix_Movies_and_TV_Shows_Clustering.ipynb  notebook, we explored the following aspects of the Netflix data:
-- Data Visualization, Storytelling & Experimenting with Charts.
-- Distribution of Content ratings and durations of different Movies and TV Shows.
-- Correlation between relevant numerical variables.
+In the Netflix_Movies_and_TV_Shows_Clustering.ipynb notebook, the following aspects of clustering were explored:
+- Applied KMeans clustering with 6 clusters, based on silhouette score.
+- Used Agglomerative Clustering with 4 clusters and visualized the results with a dendrogram.
+- Applied DBSCAN, but it struggled with noise, resulting in one large and a few small clusters.
+- Chose KMeans as the final model for its ability to handle noise and generate meaningful clusters.
+
 
 ## Technologies Used
 - Python 3
